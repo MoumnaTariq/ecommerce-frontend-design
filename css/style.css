@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #f5f6f8;
+}
+
+/* CONTAINER */
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+/* ================= HEADER TOP ================= */
+
+.top-header {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0d6efd;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* SEARCH */
+.search-box {
+  display: flex;
+}
+
+.search-box input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.search-box select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+
+.search-box button {
+  padding: 8px 15px;
+  background: #0d6efd;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #084298;
+}
+
+/* ICONS */
+.header-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.header-icons div {
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.header-icons i {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.nav-left span,
+.nav-right span {
+  margin-right: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.nav-left span:hover,
+.nav-right span:hover {
+  color: #0d6efd;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+  background: #fff;
+  margin-top: 80px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding: 50px 0;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.footer-links h4 {
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  display: block;
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.footer-links a:hover {
+  color: #0d6efd;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  background: #f1f1f1;
+  font-size: 14px;
+}
