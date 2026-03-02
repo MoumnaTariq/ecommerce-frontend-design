@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Cart - eCommerce</title>
+  <link rel="stylesheet" href="css/style.css"> <!-- Link to your CSS file -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+
+  <!-- ================= HEADER ================= -->
+  <header class="top-header">
+    <div class="container header-flex">
+      <div class="logo">
+        <i class="fa-solid fa-bag-shopping"></i> Brand
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search">
+        <select>
+          <option>All category</option>
+        </select>
+        <button>Search</button>
+      </div>
+      <div class="header-icons">
+        <div><i class="fa-regular fa-user"></i><span>Profile</span></div>
+        <div><i class="fa-regular fa-comment"></i><span>Message</span></div>
+        <div><i class="fa-regular fa-heart"></i><span>Orders</span></div>
+        <div><i class="fa-solid fa-cart-shopping"></i><span>Cart</span></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= MY CART PAGE ================= -->
+  <section class="my-cart">
+    <div class="container cart-container">
+      
+      <!-- Left Side: Cart Items -->
+      <div class="cart-items">
+        <h2>My Cart (3)</h2>
+
+        <!-- Cart Item 1 -->
+        <div class="cart-item">
+          <div class="cart-item-img">
+            <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/cloth/1.jpg" alt="Item 1">
+          </div>
+          <div class="cart-item-info">
+            <p class="item-name">T-shirts with multiple colors, for men and lady</p>
+            <p class="item-details">Size: medium, Color: blue, Material: Plastic</p>
+            <p class="item-price">$78.99</p>
+            <div class="item-actions">
+              <button class="remove-item">Remove</button>
+              <button class="save-for-later">Save for later</button>
+              <label for="qty">Qty: </label>
+              <select id="qty" class="quantity">
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cart Item 2 -->
+        <div class="cart-item">
+          <div class="cart-item-img">
+            <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/cloth/2.jpg" alt="Item 2">
+          </div>
+          <div class="cart-item-info">
+            <p class="item-name">T-shirts with multiple colors, for men and lady</p>
+            <p class="item-details">Size: medium, Color: blue, Material: Plastic</p>
+            <p class="item-price">$39.00</p>
+            <div class="item-actions">
+              <button class="remove-item">Remove</button>
+              <button class="save-for-later">Save for later</button>
+              <label for="qty">Qty: </label>
+              <select id="qty" class="quantity">
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cart Item 3 -->
+        <div class="cart-item">
+          <div class="cart-item-img">
+            <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/cloth/3.jpg" alt="Item 3">
+          </div>
+          <div class="cart-item-info">
+            <p class="item-name">T-shirts with multiple colors, for men and lady</p>
+            <p class="item-details">Size: medium, Color: blue, Material: Plastic</p>
+            <p class="item-price">$170.50</p>
+            <div class="item-actions">
+              <button class="remove-item">Remove</button>
+              <button class="save-for-later">Save for later</button>
+              <label for="qty">Qty: </label>
+              <select id="qty" class="quantity">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Right Side: Cart Summary -->
+      <div class="cart-summary">
+        <h3>Summary</h3>
+        <div class="cart-total">
+          <p>Subtotal: $1403.97</p>
+          <p>Discount: -$60.00</p>
+          <p>Tax: +$14.00</p>
+          <h4>Total: $1357.97</h4>
+        </div>
+        <div class="checkout-btn">
+          <button>Checkout</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- ================= SAVE FOR LATER ================= -->
+<section class="save-for-later">
+  <h3>Saved for Later</h3>
+  <div class="saved-items">
+    <!-- Item 1 -->
+    <div class="saved-item">
+      <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/tech/1.jpg" alt="GoPro HERO6 4K Action Camera - Black">
+      <div class="saved-item-info">
+        <p class="saved-item-name">GoPro HERO6 4K Action Camera - Black</p>
+        <p class="saved-item-price">$99.50</p>
+        <button class="move-to-cart">Move to Cart</button>
+      </div>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="saved-item">
+      <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/tech/2.jpg" alt="Smartphone Model X">
+      <div class="saved-item-info">
+        <p class="saved-item-name">Smartphone Model X</p>
+        <p class="saved-item-price">$899.00</p>
+        <button class="move-to-cart">Move to Cart</button>
+      </div>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="saved-item">
+      <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/tech/3.jpg" alt="Laptop Model Y">
+      <div class="saved-item-info">
+        <p class="saved-item-name">Laptop Model Y</p>
+        <p class="saved-item-price">$1,200.00</p>
+        <button class="move-to-cart">Move to Cart</button>
+      </div>
+    </div>
+
+    <!-- Item 4 -->
+    <div class="saved-item">
+      <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/tech/4.jpg" alt="Smartwatch Model Z">
+      <div class="saved-item-info">
+        <p class="saved-item-name">Smartwatch Model Z</p>
+        <p class="saved-item-price">$199.00</p>
+        <button class="move-to-cart">Move to Cart</button>
+      </div>
+    </div>
+
+    <!-- Item 5 -->
+    <div class="saved-item">
+      <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/tech/5.jpg" alt="Headphones Model X">
+      <div class="saved-item-info">
+        <p class="saved-item-name">Headphones Model X</p>
+        <p class="saved-item-price">$150.00</p>
+        <button class="move-to-cart">Move to Cart</button>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+
+  <!-- ================= DISCOUNT SECTION ================= -->
+<section class="discount-section">
+  <div class="discount-container">
+    <div class="discount-text">
+      <h3>Super discount on more than 100 USD</h3>
+      <p>Have you ever finally just write dummy info</p>
+    </div>
+    <button class="shop-now">Shop now</button>
+  </div>
+</section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo-footer">
+          <i class="fa-solid fa-bag-shopping"></i> Brand
+        </div>
+        <p>Best information about the company goes here but now lorem ipsum is</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Find store</a>
+        <a href="#">Categories</a>
+        <a href="#">Blogs</a>
+      </div>
+
+      <div class="footer-links">
+        <h4>Information</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Money Refund</a>
+        <a href="#">Shipping</a>
+        <a href="#">Contact us</a>
+      </div>
+
+      <div class="footer-links">
+        <h4>For users</h4>
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+        <a href="#">Settings</a>
+        <a href="#">My Orders</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2023 Ecommerce.
+    </div>
+  </footer>
+
+</body>
+</html>
