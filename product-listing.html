@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Listing - eCommerce</title>
+  <link rel="stylesheet" href="css/style.css"> <!-- Link to your CSS file -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"> <!-- Google Font -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> <!-- Font Awesome Icons -->
+</head>
+<body>
+
+  <!-- ================= HEADER TOP ================= -->
+  <header class="top-header">
+    <div class="container header-flex">
+      <div class="logo">
+        <i class="fa-solid fa-bag-shopping"></i>
+        Brand
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search">
+        <select>
+          <option>All category</option>
+        </select>
+        <button>Search</button>
+      </div>
+      <div class="header-icons">
+        <div><i class="fa-regular fa-user"></i><span>Profile</span></div>
+        <div><i class="fa-regular fa-comment"></i><span>Message</span></div>
+        <div><i class="fa-regular fa-heart"></i><span>Orders</span></div>
+        <div><i class="fa-solid fa-cart-shopping"></i><span>Cart</span></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <div class="nav-left">
+        <span><i class="fa-solid fa-bars"></i> All category</span>
+        <span>Hot offers</span>
+        <span>Gift boxes</span>
+        <span>Projects</span>
+        <span>Menu item</span>
+        <span>Help</span>
+      </div>
+      <div class="nav-right">
+        <span>English, USD</span>
+        <span>Ship to</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= PRODUCT LISTING PAGE ================= -->
+  <section class="product-listing-page">
+    <div class="product-listing-container">
+      <!-- Left Sidebar with Filters -->
+      <aside class="filters">
+        <div class="filter-category">
+          <h3>Category</h3>
+          <select>
+            <option value="mobile-accessory">Mobile Accessory</option>
+            <option value="electronics">Electronics</option>
+            <option value="smartphones">Smartphones</option>
+            <option value="modern-tech">Modern Tech</option>
+            <option value="clothing">Clothing</option>
+          </select>
+        </div>
+        <div class="filter-brands">
+          <h3>Brands</h3>
+          <select>
+            <option value="samsung">Samsung</option>
+            <option value="apple">Apple</option>
+            <option value="huawei">Huawei</option>
+            <option value="pocco">Pocco</option>
+            <option value="lenovo">Lenovo</option>
+          </select>
+        </div>
+        <div class="filter-features">
+          <h3>Features</h3>
+          <select>
+            <option value="metallic">Metallic</option>
+            <option value="plastic-cover">Plastic Cover</option>
+            <option value="8gb-ram">8GB Ram</option>
+            <option value="super-power">Super Power</option>
+            <option value="large-memory">Large Memory</option>
+          </select>
+        </div>
+        <div class="filter-ratings">
+          <h3>Ratings</h3>
+          <select>
+            <option value="4-stars">4 stars and above</option>
+            <option value="3-stars">3 stars and above</option>
+            <option value="2-stars">2 stars and above</option>
+            <option value="1-stars">1 star and above</option>
+          </select>
+        </div>
+      </aside>
+
+      <!-- Main Product Grid -->
+      <section class="product-grid">
+        <h2>12,911 items in Mobile Accessories</h2>
+        <div class="product-list">
+          <!-- Product 1 -->
+          <div class="product-card">
+            <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/tech/1.jpg" alt="Canon Camera EOS 2000">
+            <p class="product-name">Canon Camera EOS 2000, Black 10x zoom</p>
+            <p class="product-price">$998.00</p>
+            <p class="product-rating">7.5 <span class="rating-stars">★★★★☆</span></p>
+            <p class="product-shipping">+ Free Shipping</p>
+            <button class="view-details">View details</button>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card">
+            <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/tech/2.jpg" alt="GoPro HERO6">
+            <p class="product-name">GoPro HERO6 4K Action Camera - Black</p>
+            <p class="product-price">$998.00</p>
+            <p class="product-rating">7.5 <span class="rating-stars">★★★★☆</span></p>
+            <p class="product-shipping">+ Free Shipping</p>
+            <button class="view-details">View details</button>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card">
+            <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/tech/3.jpg" alt="Smartphone Model X">
+            <p class="product-name">Smartphone Model X</p>
+            <p class="product-price">$899.00</p>
+            <p class="product-rating">8.0 <span class="rating-stars">★★★★★</span></p>
+            <p class="product-shipping">+ Free Shipping</p>
+            <button class="view-details">View details</button>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="product-card">
+            <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/tech/4.jpg" alt="Laptop Model Y">
+            <p class="product-name">Laptop Model Y</p>
+            <p class="product-price">$1,200.00</p>
+            <p class="product-rating">8.5 <span class="rating-stars">★★★★★</span></p>
+            <p class="product-shipping">+ Free Shipping</p>
+            <button class="view-details">View details</button>
+          </div>
+
+          <!-- Product 5 -->
+          <div class="product-card">
+            <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/tech/5.jpg" alt="Smartwatch Z">
+            <p class="product-name">Smartwatch Z</p>
+            <p class="product-price">$199.00</p>
+            <p class="product-rating">9.0 <span class="rating-stars">★★★★★</span></p>
+            <p class="product-shipping">+ Free Shipping</p>
+            <button class="view-details">View details</button>
+          </div>
+
+          <!-- Product 6 -->
+          <div class="product-card">
+            <img src="C:/Users/PMYLS/Desktop/ecommerce-frontend-design/images/tech/6.jpg" alt="Headphones X">
+            <p class="product-name">Headphones X</p>
+            <p class="product-price">$150.00</p>
+            <p class="product-rating">8.0 <span class="rating-stars">★★★★☆</span></p>
+            <p class="product-shipping">+ Free Shipping</p>
+            <button class="view-details">View details</button>
+          </div>
+        </div>
+
+        <!-- Pagination Controls -->
+        <div class="pagination">
+          <button class="page-prev">Previous</button>
+          <span class="page-number">1</span>
+          <span class="page-number">2</span>
+          <span class="page-number">3</span>
+          <button class="page-next">Next</button>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo-footer">
+          <i class="fa-solid fa-bag-shopping"></i>
+          Brand
+        </div>
+        <p>Best information about the company goes here but now lorem ipsum is</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Find store</a>
+        <a href="#">Categories</a>
+        <a href="#">Blogs</a>
+      </div>
+
+      <div class="footer-links">
+        <h4>Information</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Money Refund</a>
+        <a href="#">Shipping</a>
+        <a href="#">Contact us</a>
+      </div>
+
+      <div class="footer-links">
+        <h4>For users</h4>
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+        <a href="#">Settings</a>
+        <a href="#">My Orders</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 Ecommerce.
+    </div>
+  </footer>
+
+</body>
+</html>
